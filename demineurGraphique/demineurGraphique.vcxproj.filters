@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="demineurGraphique.cpp">
+    <ClCompile Include="demineurGraphique.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -23,5 +23,16 @@
     <ClInclude Include="..\..\..\..\Desktop\SDL2\include\SDL.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\title.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="img\axolot.gif">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
   </ItemGroup>
 </Project>
