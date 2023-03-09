@@ -1,6 +1,5 @@
 #pragma once
 
 // init fonction et struct
-#define tabx 10
-#define taby 10
-void displayImage(const char* src, SDL_Rect image_location, SDL_Renderer* renderer);
+SDL_Texture* initImage(const char* src,  SDL_Texture* image_texture, SDL_Renderer* renderer);
+void displayImage(SDL_Texture* image, SDL_Rect image_location, SDL_Renderer* renderer);

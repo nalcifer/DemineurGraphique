@@ -35,4 +35,10 @@
       <Filter>Fichiers de ressources</Filter>
     </Image>
   </ItemGroup>
+  <ItemGroup>
+    <Font Include="font\comic.ttf">
+      <Filter>Fichiers de ressources</Filter>
+    </Font>
+    <Font Include="font\font2.ttf" />
+  </ItemGroup>
 </Project>
